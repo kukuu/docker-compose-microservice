@@ -13,7 +13,7 @@ iii. PHP
 						|---> Authentication
  						|
 						|---> Login
-User(Client)=>Routing =>|					|
+User(Client)       => Routing =>                |					|
 						|---> Basket
 						|
 						|---> Checkout
