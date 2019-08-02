@@ -1,9 +1,18 @@
 version: '3'
 
 services:
-    product-services: 
+    product-service: 
       build: ./product
       voliumes:
         - ./product:/usr/src/app
       ports:
         - 5001:80
+
+    website:
+      image: php:apache
+      voliumes:
+        - ./website:/var/www/html
+      portss:
+        - 5000:80
+      depends-on:
+        - product-service
