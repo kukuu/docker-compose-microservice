@@ -32,7 +32,7 @@ cd into service folder, and exeute 'docker-compose up'
 product
 website
 
-4.  docker-compose up -d (detached and unning in the background)
+4.  docker-compose up -d (detached and running in the background)
 
 5. docker ps
 
