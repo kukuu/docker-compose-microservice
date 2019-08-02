@@ -7,7 +7,7 @@
 	<h1>Welcome Home</h1>
 	<ul>
 		<?php
-
+			//Not recommended to use file_get_contents in production
 			$json = file_get_contents('http://product-service');//String
 			$obj = json_decode($json);//json
 
